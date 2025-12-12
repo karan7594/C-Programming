@@ -1,12 +1,78 @@
-#include<stdio.h>
+// #include<stdio.h>
 
-int main(){
-    int a,b;
-    printf("enter a first number : ");
+// int main(){
+//     int a,b;
+//     printf("enter a first number : ");
+//     scanf("%d",&a);
+//     printf("enter a second number : ");
+//     scanf("%d",&b);
+//     int sum =a+b;
+//     printf("sum of %d",sum);
+//     return 0;
+// }
+
+
+
+// #include <stdio.h>
+
+// int main() {
+//     int a, b;
+//     scanf("%d", &a);
+//     scanf("%d", &b);
+
+//     for (int n = a; n <= b; n++) {
+//         if (n >= 1 && n <= 9) {
+//             switch(n) {
+//                 case 1: printf("one\n"); break;
+//                 case 2: printf("two\n"); break;
+//                 case 3: printf("three\n"); break;
+//                 case 4: printf("four\n"); break;
+//                 case 5: printf("five\n"); break;
+//                 case 6: printf("six\n"); break;
+//                 case 7: printf("seven\n"); break;
+//                 case 8: printf("eight\n"); break;
+//                 case 9: printf("nine\n"); break;
+//             }
+//         } else {
+//             if (n % 2 == 0)
+//                 printf("even\n");
+//             else
+//                 printf("odd\n");
+//         }
+//     }
+
+//     return 0;
+// }
+
+
+#include <stdio.h>
+
+int main()
+{
+	int a,b;
+    
+    printf("enter first number:\n");
     scanf("%d",&a);
-    printf("enter a second number : ");
+    
+    printf("enter second number:\n");
     scanf("%d",&b);
-    int sum =a+b;
-    printf("sum of %d",sum);
+
+    printf("sum is %d\n",a+b);
+    printf("sub is %d\n",a-b);
+    
+    
+    float x,y;
+    
+    printf("enter first number:\n");
+    scanf("%f",&x);
+    
+    printf("enter second number:\n");
+    scanf("%f",&y);
+    
+    
+    printf("sum is %f\n",x+y);
+    printf("sub is %f\n",x-y);
+    
+    
     return 0;
 }
